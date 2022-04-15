@@ -1,0 +1,182 @@
+@font-face {
+     font-family:Netflix-Sans;
+     src: url(NetflixSansRegular.ttf);
+ }
+ * {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: Netflix-Sans;
+} 
+body{
+    background-color: black;   
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 45px;
+    font-weight: bolder;
+}
+main{
+    width: 70%;
+    margin: 35px auto;
+}
+.question {
+    background-color: #303030;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 10px;
+}
+.answer{
+    background-color: #303030;
+    font-size: 30px;
+    padding: 20px 15px;
+    border-top: 1px solid black;
+    display: none; 
+}
+hr{
+    height: 10px;
+    background-color: #303030;
+    border: solid 1px #303030;
+}
+.upper {
+    background-image: url(net.jpg);
+    height: 100vh;
+    
+}
+.btn{
+    background-color: red;
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+}
+.flix{
+    width: 150px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 20px;
+    opacity: 100%;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 16px;
+}
+.text{
+    display: flex;
+    position: relative;
+    top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    background-color: red;
+    height: 64px;
+    width: 150px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    border-radius: 1px;
+    
+}
+input {
+    height: 50px;
+    width: 400px;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 7px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.text-2{
+    font-size: 36px;
+}
+.en{
+    width: 400px;
+    height: 400px;
+}
+h4{
+    font-size: 46px;
+}
+.info{
+    font-size: 36px;
+}
+a{
+    text-decoration: none;
+    font-size: 26px;
+}
+.foot{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.form-2{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+footer{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   padding: 0%;
+}
+.quiz p {
+    font-size: 13px;
+    margin: 10px;
+    color: #757575;
+      
+}
+.quiz p:hover{
+    text-decoration: underline;
+}
+#c-u{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+#n-k{
+    margin-top: 30px;
+}
+#last{
+    margin-bottom: 22px;
+}
+
+
